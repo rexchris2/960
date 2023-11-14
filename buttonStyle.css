@@ -1,0 +1,24 @@
+.buttMarg {
+  margin-left: 200px;
+}
+button{
+  margin-left: 10px;
+    background-color: #52a3e6;
+    border-color: white;
+    color:white ;
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 95px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-right:15px;
+    transition: background-color 0.50s, color 0.50s;
+}
+button:hover{
+  background-color: white;
+  color: #52a3e6;
+}
+button:active{
+  opacity: 0.45;
+}
